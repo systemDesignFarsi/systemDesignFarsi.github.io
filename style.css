@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.book-container {
+  display: flex;
+  flex-direction: column; /* Stacks books vertically */
+  align-items: center; /* Centers books horizontally */
+}
+
+.book {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.book a {
+  text-decoration: none;
+}
+
+.book img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+h2, p {
+  margin: 5px 0;
+}
+
+.download-btn {
+  background-color: #007bff; /* Change color as desired */
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Indicates clickable element */
+  margin-top: 10px; /* Add spacing from description */
+}
